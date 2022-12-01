@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Todo List</title>
-</head>
+    <title>uprême TaskOS</title>
+    <meta name="description" content="Application de gestion de tâches" />
 
-<body>
+    <link rel="stylesheet" href="./styles/app.css" />
+  </head>
+  <body>
+    <h1>Suprême TaskOS</h1>
+    <div class="wrapper">
+      <div id="taskapp" class="task-app">
+        <ul id="tasks" class="task-app__tasks">
+          <li class="task-app__task">
+            <span>Ecrire le devis pour Mr Jean</span>
+          </li>
+          <li class="task-app__task">
+            <span>Acheter des bouteilles d'eau</span>
+          </li>
+          <li class="task-app__task">
+            <span>Passer le balai</span>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-
-  <script src="./scripts/script.js" type="module"></script>
-</body>
-
+    <script src="./scripts/app.js" type="module"></script>
+  </body>
 </html>
